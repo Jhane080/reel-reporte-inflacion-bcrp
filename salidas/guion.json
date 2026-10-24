@@ -1,0 +1,39 @@
+{
+  "escenas": [
+    {
+      "frase": "La actividad económica nacional creció dos coma seis por ciento en el segundo trimestre.",
+      "cifra": "2,6 %",
+      "etiqueta": "Crecimiento económico segundo trimestre"
+    },
+    {
+      "frase": "Para dos mil veintiséis, la proyección de crecimiento del PBI baja de tres coma cuatro a tres coma dos por ciento.",
+      "cifra": "3,2 %",
+      "etiqueta": "Proyección de crecimiento del PBI 2026"
+    },
+    {
+      "frase": "La inflación interanual aumentó a cuatro coma cuarenta y cuatro por ciento en agosto.",
+      "cifra": "4,44 %",
+      "etiqueta": "Inflación interanual en agosto"
+    },
+    {
+      "frase": "Se estima una tasa de inflación de cuatro coma dos por ciento para este año.",
+      "cifra": "4,2 %",
+      "etiqueta": "Inflación proyectada para el 2026"
+    },
+    {
+      "frase": "El BCRP mantiene su tasa de referencia en cuatro coma veinticinco por ciento desde setiembre de dos mil veinticinco.",
+      "cifra": "4,25 %",
+      "etiqueta": "Tasa de interés de referencia"
+    },
+    {
+      "frase": "Se proyecta un déficit fiscal de uno coma cinco por ciento del PBI en dos mil veintiséis y dos mil veintisiete. Lee el reporte completo.",
+      "cifra": "1,5 %",
+      "etiqueta": "Déficit fiscal proyectado 2026 y 2027"
+    }
+  ],
+  "posts": {
+    "linkedin": "El Banco Central de Reserva publicó el Reporte de Inflación de setiembre 2026. La actividad económica creció 2,6 % en el segundo trimestre, aunque se revisó a la baja la proyección del PBI para este año a 3,2 % por el Fenómeno El Niño. La inflación se estimó en 4,2 % y la tasa de interés se mantuvo en 4,25 %. Conoce todos los detalles macroeconómicos en el reporte oficial: https://www.bcrp.gob.pe/publicaciones/reporte-de-inflacion.html\n\nVoz generada con IA.",
+    "x": "📊 Reporte de Inflación Setiembre 2026:\n📈 PBI 2026: 3,2 %\n💹 Inflación 2026: 4,2 %\n🏦 Tasa de interés: 4,25 %\nLa economía creció 2,6 % en el segundo trimestre; por El Niño, el PBI se revisa a la baja.\nInforme:https://www.bcrp.gob.pe/publicaciones/reporte-de-inflacion.html\nVoz generada con IA.",
+    "instagram": "Conoce las nuevas proyecciones macroeconómicas del Banco Central. La inflación se estima en 4,2 % para este año y el PBI se revisó a 3,2 % por El Niño. ¡Lee el Reporte de Inflación de setiembre 2026! (enlace en mi perfil)\nVoz generada con IA.\n#EconomíaPerú #BCRP #Inflación"
+  }
+}

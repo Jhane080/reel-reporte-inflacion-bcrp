@@ -1,0 +1,198 @@
+Eres guionista de reels de divulgación económica para redes sociales en el Perú.
+Convierte el TEXTO de abajo en el guion de un reel vertical de 45 a 55 segundos.
+
+Reglas:
+1. Exactamente 6 escenas. Cada escena destaca UNA cifra que aparece tal cual en el texto.
+2. "frase" es lo que se dice en voz alta: una o dos oraciones cortas, máximo 22 palabras,
+   con los números escritos en palabras (por ejemplo "tres coma cuatro por ciento").
+3. "cifra" es el número que se ve en pantalla, copiado tal como aparece en el texto (por ejemplo "3,4 %").
+4. "etiqueta" explica la cifra en pantalla en máximo 6 palabras.
+5. No agregues causas, consecuencias ni opiniones que el texto no diga. Si el texto dice
+   "se proyecta", no escribas "será".
+6. La primera escena engancha; la última invita a leer el reporte completo.
+7. Además escribe tres posts para acompañar el reel: uno para LinkedIn (máx. 80 palabras),
+   uno para X (máx. 260 caracteres) y uno para Instagram (máx. 60 palabras, con 3 hashtags).
+
+Responde SOLO con un JSON válido, sin texto antes ni después, con esta forma:
+{
+  "escenas": [
+    {"frase": "...", "cifra": "...", "etiqueta": "..."}
+  ],
+  "posts": {"linkedin": "...", "x": "...", "instagram": "..."}
+}
+
+TEXTO:
+Reporte de Inflación.  Setiembre 2026
+7
+Resumen
+i. Luego de la desaceleración de la actividad económica global en el segundo trimestre, 
+indicadores más recientes sugieren una recuperación asociada a: (i) el dinamismo 
+de las industrias vinculadas a la inteligencia artificial (IA) y a las energías verdes, (ii) la 
+recomposición del comercio global y (iii) las políticas fiscales expansivas en las principales 
+economías. Estos factores estarían compensando el impacto negativo del conflicto de 
+Medio Oriente sobre la actividad económica que enfrenta elevados precios de energía y 
+otros choques de oferta vinculados a la cadena de suministros.
+ Por su parte, la inflación global ha retrocedido, pero se mantiene por encima de las metas 
+de sus bancos centrales. Las presiones provienen tanto de choques de oferta, asociados 
+a los costos de energía, como de demanda, vinculados a la inversión creciente de las 
+industrias relacionadas con la IA.
+ En línea con lo anterior, se mantienen las proyecciones de crecimiento mundial en 3,1 
+por ciento para 2026 y 2027. Entre los riesgos a la baja destacan la prolongación y 
+agravamiento de las tensiones geopolíticas, una convergencia más lenta de la inflación, 
+nuevas medidas comerciales y un menor crecimiento de China.
+ii. Los términos de intercambio subieron 15,8 por ciento interanual en el segundo 
+trimestre de 2026, por el continuo aumento en los precios de exportación de productos 
+tradicionales, destacando los metales básicos. Las cotizaciones internacionales de estos 
+productos subieron impulsadas por problemas en la producción de cobre y zinc por 
+escasez de insumos, incremento de los costos de la energía y problemas operativos y 
+logísticos en minas y fundiciones. A ello se sumó la fortaleza de la demanda estructural 
+vinculada a electrificación, energías renovables y centros de datos.
+ El crecimiento proyectado de los términos de intercambio de 2026 se revisa ligeramente 
+a la baja, de 18,3 a 18,1 por ciento, debido a la previsión de precios más altos de los 
+insumos importados, principalmente del petróleo y derivados, así como de productos 
+para la industria. En menor medida, la proyección de mayores cotizaciones de alimentos 
+contribuyó a dicha revisión. El índice de los términos de intercambio moderaría su 
+crecimiento anual a 0,8 por ciento en 2027, alcanzando el nivel más alto desde que se 
+tiene registro.
+iii. La balanza de pagos continuó reforzando su posición. El superávit en cuenta corriente 
+aumentó de 3,5 por ciento del PBI en 2025 a 4,5 por ciento anualizado al segundo 
+trimestre de 2026, explicado principalmente por el alza en los términos de intercambio y, 
+en menor medida, por el crecimiento del volumen exportado de zinc, oro y productos no 
+tradicionales agropecuarios y pesqueros.
+ Se proyecta que el superávit en cuenta corriente ascienda a 4,0 por ciento del PBI en 2026 
+y a 3,4 por ciento en 2027. En 2026, el superávit comercial se incrementaría, sustentado 
+principalmente en el fuerte aumento de los términos de intercambio, pese al dinamismo 
+del gasto privado y la caída de los volúmenes exportados por efecto de El Niño. Este 
+mayor superávit compensaría el aumento del déficit de servicios y del ingreso primario, 
+BANCO CENTRAL DE RESERV A DEL PERÚ
+8
+asociado principalmente a mayores costos de fletes y al incremento de las utilidades de 
+empresas con capitales extranjeros, respectivamente. En 2027, aunque el superávit en 
+cuenta corriente se mantendría en niveles elevados, disminuiría como porcentaje del PBI 
+debido principalmente al mayor crecimiento de los volúmenes importados y al aumento 
+de las utilidades. Estos efectos serían parcialmente compensados por los mayores términos 
+de intercambio y la reducción de los egresos por fletes, en línea con la corrección prevista 
+de sus precios.
+iv. La actividad económica nacional creció 2,6 por ciento en el segundo trimestre de 
+2026, debido al avance del gasto privado, en particular la aceleración de la inversión 
+privada y el dinamismo del consumo privado, contrarrestado por una desaceleración 
+del gasto público. Por el lado de la oferta, destacó el dinamismo de las actividades no 
+primarias, especialmente los servicios, el comercio y la construcción. En contraste, los 
+sectores primarios de pesca, manufactura, agropecuario e hidrocarburos mostraron una 
+contracción.
+ Las proyecciones incorporan un Fenómeno El Niño de magnitud extraordinaria en 
+contraste con la magnitud fuerte contemplada en el Reporte anterior. Por ello, se revisa a 
+la baja la proyección de crecimiento del PBI, de 3,4 a 3,2 por ciento para 2026; y de 3,2 a 
+3,0 por ciento para 2027. En línea con este supuesto, se prevé una mayor contracción de 
+los sectores primarios en 2026 y un menor crecimiento en 2027 debido a las anomalías 
+climáticas, así como una desaceleración de la manufactura no primaria y la construcción 
+en lo que resta de 2026.
+v. El déficit fiscal acumulado en los últimos doce meses disminuyó de 2,2 a 1,0 por 
+ciento del PBI entre diciembre de 2025 y agosto de 2026. Se proyecta que el déficit fiscal 
+se ubique en 1,5 por ciento del PBI en 2026 y 2027. La proyección para 2026 considera 
+un crecimiento real de los ingresos corrientes de 9,1 por ciento, asociado principalmente a 
+la mayor recaudación por impuesto a la renta empresarial, Impuesto Especial a la Minería 
+y regalías mineras. Por su parte, los gastos no financieros crecerían 3,4 por ciento en 
+términos reales, principalmente por el aumento del gasto corriente.
+ Se prevé que la deuda neta de depósitos del Sector Público No Financiero disminuya de 
+22,7 a 21,4 por ciento del PBI entre 2025 y 2026, para luego aumentar moderadamente 
+a 22,0 por ciento en 2027. En tanto, se estima que la deuda bruta pase de 30,1 a 28,2 
+por ciento entre 2025 y 2027. Los activos financieros públicos se reducirían de 7,4 a 6,2 
+por ciento entre 2025 y 2027, por lo que se requiere una senda decreciente del déficit 
+fiscal que permita estabilizar la deuda pública en los próximos años, preservando un nivel 
+adecuado de activos financieros.
+vi. El Directorio del BCRP decidió mantener la tasa de interés de referencia en 4,25 por 
+ciento desde setiembre de 2025. Las tasas de interés en moneda nacional continuaron 
+evolucionando de acuerdo con la tasa de referencia, en particular en los segmentos de 
+menor riesgo crediticio y menor plazo, aunque con comportamientos heterogéneos en 
+otros segmentos. De acuerdo con lo esperado, el ritmo de expansión interanual de la 
+liquidez en moneda nacional (circulante más depósitos) se aceleró al pasar de 11,4 por 
+ciento en diciembre de 2025 a 16,1 por ciento en julio de 2026. Por su parte, en el 
+mismo periodo y también en línea con lo proyectado, la tasa de crecimiento interanual 
+del crédito al sector privado aumentó de 6,6 por ciento en diciembre de 2025 a 9,4 por 
+ciento en julio de 2026, sustentado principalmente en los segmentos mediana empresa y 
+MYPE; y, en menor medida, corporativo y gran empresa, y por consumo, en línea con la 
+Reporte de Inflación.  Setiembre 2026
+9
+recuperación de la actividad económica. Hacia adelante se prevé que el crédito al sector 
+privado crezca a tasas entre 9,5 y 7,0 por ciento en 2026 y 2027, acorde con la proyección 
+de crecimiento de la actividad económica.
+vii. La inflación interanual aumentó de 3,91 por ciento en mayo de 2026 a 4,44 por ciento 
+en agosto, debido principalmente al mayor precio de alimentos como pescado fresco, 
+huevos y carne de pollo. En el mismo periodo, la inflación sin alimentos y energía (SAE) 
+pasó de 4,44 por ciento a 4,50 por ciento, influida por el aumento de precios en el 
+transporte local registrado desde marzo y por el componente de educación, asociado a 
+factores estacionales. Excluyendo el rubro de transporte, la inflación subyacente se ubicó 
+en 1,8 por ciento interanual, y se mantiene por debajo de 2 por ciento desde abril del año 
+pasado.
+ Se proyecta que la inflación se mantenga en los próximos meses por encima del rango 
+meta, debido al incremento de precios registrado en marzo y abril del presente año, 
+asociado principalmente a incrementos en tarifas de transporte local y combustibles. 
+Adicionalmente, se prevé una mayor inflación hacia fines del presente año y a comienzos 
+del próximo año debido a la ocurrencia de los fenómenos de El Niño. Posteriormente, la 
+inflación convergería hacia el centro del rango meta. Así, se estima una tasa de inflación 
+de 4,2 por ciento para 2026 y de 2,0 por ciento para 2027. Esta proyección considera 
+expectativas de inflación que descenderían hacia el valor central del rango meta.
+viii. El balance de riesgos de la proyección de la inflación se revisa al alza respecto al Reporte 
+de junio, debido principalmente al mayor riesgo de choques de oferta internos. El 
+escenario base asume un fenómeno El Niño Costero extraordinario. Entre los principales 
+riesgos destacan: (i) mayores choques de oferta, tanto internos como externos, asociados 
+a la posible intensificación y persistencia del fenómeno El Niño Costero y El Niño Global, 
+y a disrupciones en los mercados internacionales de insumos; (ii) episodios de volatilidad 
+financiera y cambiaria; (iii) debilitamiento de la demanda interna de presentarse menores 
+ingresos de la población producto de fenómenos climáticos más severos; y (iv) menor 
+demanda externa ante una desaceleración del crecimiento global, una reducción de 
+los términos de intercambio y mayores costos de financiamiento internacional, en un 
+contexto de elevados niveles de endeudamiento en las economías avanzadas.
+BANCO CENTRAL DE RESERV A DEL PERÚ
+10
+RESUMEN DE LAS PROYECCIONES 
+ Var. % real
+ 1. Producto bruto interno  3,4 3,4 3,2 3,2 3,0
+ 2.   Demanda interna  5,6 5,9 6,2 3,5 4,1
+ a.  Consumo privado  3,6 3,6 3,6 3,0 3,0
+ b.  Consumo público  3,3 3,2 3,2 2,3 2,3
+ c.  Inversión privada fija  10,0 12,5 14,0 6,0 8,5
+ d.  Inversión pública  5,7 1,0 1,0 2,5 3,5
+ 3.   Exportaciones de bienes y servicios  4,7 0,6 0,1 2,9 2,5
+ 4.   Importaciones de bienes y servicios  12,6 9,6 10,8 4,2 6,1
+ 5.   Crecimiento del PBI Mundial  3,4 3,1 3,1 3,1 3,1
+Nota: 
+ Brecha del producto 1/ (%)  -0,5 ; 0,5 -0,5 ; 0,5 -0,5 ; 0,5 -0,5 ; 0,5 -0,5 ; 0,5
+ 
+  Var. % 
+ 
+ 6.   Inflación (fin de periodo)  1,5 3,8 4,2 2,0 2,0
+ 7.   Inflación esperada 2/  2,1 3,2 4,0 2,4 2,6
+ 8.   Depreciación esperada 2/  -9,9 3,2 0,0 0,0 0,9
+ 9.  Términos de intercambio  19,9 18,3 18,1 -1,3 0,8
+ a.  Precios de exportación   17,5 25,6 28,1 -0,6 1,3
+ b.  Precios de importación  -2,0 6,2 8,5 0,7 0,5
+ Var. % nominal
+ 
+10.  Circulante  14,5 12,0 14,0 6,0 10,0
+11.  Crédito al sector privado   6,6 9,0 9,5 7,0 7,0
+ 
+ % PBI
+ 
+12.  Inversión bruta fija  21,6 21,6 21,8 22,0 22,5
+13.  Cuenta corriente de la balanza de pagos  3,5 3,9 4,0 3,1 3,4
+14.  Balanza comercial  10,4 12,3 12,1 11,2 11,2
+15.  Deuda externa privada de mediano y largo plazo 3/  15,3 7,6 12,9 6,4 11,4
+16.  Ingresos corrientes del Gobierno General  19,0 18,9 19,3 19,1 19,3
+17.  Gastos no financieros del Gobierno General  19,9 19,0 19,2 19,2 19,3
+18.  Resultado económico del Sector Público No Financiero  -2,2 -1,8 -1,5 -1,5 -1,5
+19. Saldo de deuda pública total  30,1 28,2 27,8 28,5 28,2
+20.  Saldo de deuda pública neta  22,7 21,6 21,4 22,3 22,0
+ 
+RI: Reporte de Inflación.
+* Proyección.     
+1/  Diferencial entre el PBI y el PBI potencial (en porcentaje del PBI potencial).      
+2/  Encuesta de expectativas a los analistas y entidades financieras realizadas al momento de la publicación del respectivo Reporte de 
+Inflación. Para 2025 se ha considerado la información observada en el caso de la depreciación y el promedio de las expectativas a 
+lo largo del año en el caso de la inflación.     
+3/  Incluye obligaciones en moneda nacional con no residentes.
+2026*
+2025
+2027*
+RI Jun.26 RI Set.26RI Jun.26RI Set.26
